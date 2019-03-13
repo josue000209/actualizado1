@@ -31,7 +31,9 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="88dp"
         app:srcCompat="@drawable/ad1"
-        tools:srcCompat="@drawable/ad1" />
+        tools:srcCompat="@drawable/ad1"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentLeft="true" />
 
     <TextView
         android:layout_width="match_parent"
