@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.alejandrolora.seccion_04_realm_lab.activities.AddEditCityActivity;
+import com.alejandrolora.seccion_04_realm_lab.activities.CityActivity;
+import com.alejandrolora.seccion_04_realm_lab.models.City;
 
 public class Intro extends AppCompatActivity {
 
@@ -23,7 +25,7 @@ public class Intro extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent intent=new Intent(Intro.this,AddEditCityActivity.class);
+                Intent intent=new Intent(Intro.this,CityActivity.class);
                 startActivity(intent);
             }
         });
