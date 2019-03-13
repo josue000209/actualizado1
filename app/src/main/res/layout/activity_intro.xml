@@ -24,25 +24,29 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="282dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="74dp"
-        app:srcCompat="@drawable/a1" />
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="88dp"
+        app:srcCompat="@drawable/ad1"
+        tools:srcCompat="@drawable/ad1" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/buttonMain"
         android:layout_below="@+id/imageView2"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="51dp"
-        android:layout_marginBottom="8dp"
-        android:text="La mejor experiencia en agendas!"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="      La mejor experiencia en agendas!"
         android:textColor="#ffffff"
-        android:textSize="25dp"
-        android:layout_alignParentLeft="true" />
+        android:textSize="20dp" />
 
 </RelativeLayout>
